@@ -121,7 +121,7 @@
         return self.rolls[frameIndex] + self.rolls[frameIndex + 1] == 10
 
 
-    import unittest
+import unittest
 from Game import Game
 
 class BowlingGameTest(unittest.TestCase):

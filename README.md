@@ -135,6 +135,7 @@ class BowlingGameTest(unittest.TestCase):
         for i in range(n):
             self.g.roll(pins)
 
+    #Tests the different scenarios
     def testGutterGame(self):
         self.rollMany(20, 0)
         self.assertEqual(0, self.g.score())

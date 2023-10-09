@@ -55,3 +55,18 @@
   Useful for controlling test execution, based on assumptions, making tests more flexible to different enviorments.
 
   ### 3.2 Mocking Frameworks
+
+  For this assignment, I will be comparing 'unittest.mock' and 'pytest-mock'.
+
+  #### Similarities:
+  Both provide tools for creating and using mock objects to simulate the behaviour of real world objects and functions during testing.
+  They allow you to configure the behaviour of mock objects, such as defining return values, side effects and assertions on method calls.
+  
+  #### Differences:
+  'unittest.mock' is part of the Python standard library and is integrated with the built-in unittest framework.
+  'pytest-mock' is a Pytest plugin specifically designed to enhance mocking capabilities within Pytest. It is not part of the Python standard library and requires installation as an external plugin.
+  'pytest-mock' is known for its more concise and expressive syntax for mocking and asserting expectations, making test code more readable.
+  'unittest.mock' is a general-purpose mocking framework suitable for various testing scenarios, including unit testing, integration testing, and system testing, whereas 'pytest-mock' is specifically designed for projects using the Pytest testing framework.
+
+  #### Preference:
+  I prefer Pytest because it offers clear and readable test syntax, making it easy to write and understand. Additionally, it follows Python conventions and allows for easy customization, which I find neat.

@@ -30,21 +30,28 @@
   ### 3.1 JUnit 5
 
   #### @Tag
+  Allows you to categorize your test method/classes with a userdefined tag.  
+  Useful for selectively running tests based on their categories/tag.
   #### @Disabled
+  Makes a test method/class disabled, meaning it won't be executed.
+  Useful when you tempoarily skip a test that may be failing/not yet implemented.
   #### @RepeatedTest
+  Is used to repeat the execution of a test method x number of times.
+  Usedful for testing senarios that need to be repeated x amount of times, to ensure stability or even verify random behaviour.
   #### @BeforeEach, @AfterEach
+  Both annotations marks methods that are run before and after each test method.
+  Useful for initializing resources before each test and then clean them up afterwards.
   #### @BeforeAll, @AfterAll
+  Both annotations marks methods that are run once before and after all test methods in a test class.
+  Useful for setting up expensive resources that can be shared across multiple methods - such as initializing a database conenction.
   #### @DisplayName
+  Allows your to provide a custom name for a test method/class, which is displayed in test reports.
+  Useful for providing descriptive names to your test, making it easier to understand the purpose of each test case.
   #### @Nested
+  Enables the creation of nested test class with a test class.
+  Useful for making a better and organized test code, by grouping related tests together.
   #### @assumeFalse, @assumeTrue
+  Allows you to conditionally skip tests based on certain assumptions.
+  Useful for controlling test execution, based on assumptions, making tests more flexible to different enviorments.
 
   ### 3.2 Mocking Frameworks
-
-  #### @Tag
-  #### @Disabled
-  #### @RepeatedTest
-  #### @BeforeEach, @AfterEach
-  #### @BeforeAll, @AfterAll
-  #### @DisplayName
-  #### @Nested
-  #### @assumeFalse, @assumeTrue

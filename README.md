@@ -27,11 +27,24 @@
 
 ## 3. Investigation of Tools
 
-### @Tag
-### @Disabled
-### @RepeatedTest
-### @BeforeEach, @AfterEach
-### @BeforeAll, @AfterAll
-### @DisplayName
-### @Nested
-### @assumeFalse, @assumeTrue
+  ### 3.1 JUnit 5
+
+  #### @Tag
+  #### @Disabled
+  #### @RepeatedTest
+  #### @BeforeEach, @AfterEach
+  #### @BeforeAll, @AfterAll
+  #### @DisplayName
+  #### @Nested
+  #### @assumeFalse, @assumeTrue
+
+  ### 3.2 Mocking Frameworks
+
+  #### @Tag
+  #### @Disabled
+  #### @RepeatedTest
+  #### @BeforeEach, @AfterEach
+  #### @BeforeAll, @AfterAll
+  #### @DisplayName
+  #### @Nested
+  #### @assumeFalse, @assumeTrue

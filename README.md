@@ -37,7 +37,7 @@
   Useful when you tempoarily skip a test that may be failing/not yet implemented.
   #### @RepeatedTest
   Is used to repeat the execution of a test method x number of times.
-  Usedful for testing senarios that need to be repeated x amount of times, to ensure stability or even verify random behaviour.
+  Useful for testing senarios that need to be repeated x amount of times, to ensure stability or even verify random behaviour.
   #### @BeforeEach, @AfterEach
   Both annotations marks methods that are run before and after each test method.
   Useful for initializing resources before each test and then clean them up afterwards.
